@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Student Classification</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> -->
+
+</head>
+
+<body>
+  <div class="login">
+    <h2>Student Classification for sem 3:</h2>
+
+    <form action="{{ url_for('predictsem3')}}" method="post">
+      <input type="text" name="AM_SE" placeholder="AM_SE" required="required" />
+      <input type="text" name="AM_IA" placeholder="AM_IA" required="required" />
+      <input type="text" name="DLDA_SE" placeholder="DLDA_SE" required="required" />
+      <input type="text" name="DLDA_IA" placeholder="DLDA_IA" required="required" />
+      <input type="text" name="DSGT_SE" placeholder="DSGT_SE" required="required" />
+      <input type="text" name="DSGT_IA" placeholder="DSGT_IA" required="required" />
+      <input type="text" name="ECCF_SE" placeholder="ECCF_SE" required="required" />
+      <input type="text" name="ECCF_IA" placeholder="ECCF_IA" required="required" />
+      <input type="text" name="DS_SE" placeholder="DS_SE" required="required" />
+      <input type="text" name="DS_IA" placeholder="DS_IA" required="required" />
+      <input type="text" name="DigitalSL_TW" placeholder="DigitalSL_TW" required="required" />
+      <input type="text" name="DSL_OP" placeholder="DSL_OP" required="required" />
+      <input type="text" name="BE_TW" placeholder="BE_TW" required="required" />
+      <input type="text" name="BE_OP" placeholder="BE_OP" required="required" />
+      <input type="text" name="DataSL_TW" placeholder="DataSL_TW" required="required" />
+      <input type="text" name="DSL_OP.1" placeholder="DSL_OP.1" required="required" />
+      <input type="text" name="OOPM_TW" placeholder="OOPM_TW" required="required" />
+      <input type="text" name="OOPM_OP" placeholder="OOPM_OP" required="required" />
+      <input type="text" name="GPA_SEM_4" placeholder="GPA_SEM_4" required="required" />
+      <br>
+      <br>
+      <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+    <br>
+    <br>
+    {{ prediction_text }}
+
+  </div>
+
+
+</body>
+
+</html>

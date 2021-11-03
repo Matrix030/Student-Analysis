@@ -1,0 +1,3 @@
+,Medu,Fedu,traveltime,studytime,failures,internship,freetime,goout,health,absences,GPA,sex_F,famsize_GT3,Mjob_at_home,Mjob_health,Mjob_other,Mjob_services,Mjob_teacher,Fjob_at_home,Fjob_health,Fjob_other,Fjob_services,Fjob_teacher,guardian_father,guardian_mother,guardian_other,extra_learning_yes,sports_yes,higher_yes,cluster
+197,3,3,1,2,0,0,3,3,1,32,9.37,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,1,1,10
+212,4,4,2,1,1,1,2,4,2,30,8.52,1,1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,1,10
