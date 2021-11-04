@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Student Classification</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style_sem3.css') }}">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.js"></script>
+  <script type="text/javascript" src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.js"></script>
+
+  <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">HOME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="sem3">SEM3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sem4">SEM4</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="container">
+
+    <h2 class="my-3">Student Classification for sem 3</h2>
+
+    <div class="container input-form">
+      <form action="{{ url_for('predictsem3')}}" method="post">
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" name="AM_SE" placeholder="AM_SE" required="required"
+              aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" name="AM_IA" placeholder="AM_IA" required="required"
+              aria-label="Last name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" name="DLDA_SE" placeholder="DLDA_SE" required="required"
+              aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" name="DLDA_IA" placeholder="DLDA_IA" required="required"
+              aria-label="Last name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" name="DSGT_SE" placeholder="DSGT_SE" required="required"
+              aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" name="DSGT_IA" placeholder="DSGT_IA" required="required"
+              aria-label="Last name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" name="ECCF_SE" placeholder="ECCF_SE" required="required"
+              aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" name="ECCF_IA" placeholder="ECCF_IA" required="required"
+              aria-label="Last name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" name="DS_SE" placeholder="DS_SE" required="required"
+              aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" name="DS_IA" placeholder="DS_IA" required="required"
+              aria-label="Last name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" name="DigitalSL_TW" placeholder="DigitalSL_TW" required="required"
+              aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" name="DSL_OP" placeholder="DSL_OP" required="required"
+              aria-label="Last name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" name="BE_TW" placeholder="BE_TW" required="required"
+              aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" name="BE_OP" placeholder="BE_OP" required="required"
+              aria-label="Last name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" name="DataSL_TW" placeholder="DataSL_TW" required="required"
+              aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" name="DSL_OP.1" placeholder="DSL_OP.1" required="required"
+              aria-label="Last name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" name="OOPM_TW" placeholder="OOPM_TW" required="required"
+              aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" name="OOPM_OP" placeholder="OOPM_OP" required="required"
+              aria-label="Last name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" name="GPA_SEM_3" placeholder="GPA_SEM_3" required="required"
+              aria-label="First name">
+          </div>
+        </div>
+
+
+        <button type="submit" class="btn btn-outline-secondary btn-md center-block predict-btn my-3"
+          onclick="noback()">Predict</button>
+
+      </form>
+      <!-- <form action="{{ url_for('predictsem3')}}" method="post">
+        <input type="text" name="AM_SE" placeholder="AM_SE" required="required" />
+        <input type="text" name="AM_IA" placeholder="AM_IA" required="required" />
+        <input type="text" name="DLDA_SE" placeholder="DLDA_SE" required="required" />
+        <input type="text" name="DLDA_IA" placeholder="DLDA_IA" required="required" />
+        <input type="text" name="DSGT_SE" placeholder="DSGT_SE" required="required" />
+        <input type="text" name="DSGT_IA" placeholder="DSGT_IA" required="required" />
+        <input type="text" name="ECCF_SE" placeholder="ECCF_SE" required="required" />
+        <input type="text" name="ECCF_IA" placeholder="ECCF_IA" required="required" />
+        <input type="text" name="DS_SE" placeholder="DS_SE" required="required" />
+        <input type="text" name="DS_IA" placeholder="DS_IA" required="required" />
+        <input type="text" name="DigitalSL_TW" placeholder="DigitalSL_TW" required="required" />
+        <input type="text" name="DSL_OP" placeholder="DSL_OP" required="required" />
+        <input type="text" name="BE_TW" placeholder="BE_TW" required="required" />
+        <input type="text" name="BE_OP" placeholder="BE_OP" required="required" />
+        <input type="text" name="DataSL_TW" placeholder="DataSL_TW" required="required" />
+        <input type="text" name="DSL_OP.1" placeholder="DSL_OP.1" required="required" />
+        <input type="text" name="OOPM_TW" placeholder="OOPM_TW" required="required" />
+        <input type="text" name="OOPM_OP" placeholder="OOPM_OP" required="required" />
+        <input type="text" name="GPA_SEM_4" placeholder="GPA_SEM_4" required="required" />
+        <br>
+        <br>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+      </form> -->
+    </div>
+
+    <div class="pdf" id="pdf">
+      <!-- <h2>report</h2> -->
+      <h4>
+        {{ prediction_text }}
+      </h4>
+
+      {% for suggestion in list %}
+      <h5>
+        {{ suggestion }}
+      </h5>
+      {% endfor %}
+      <!-- <p>
+        {{ np_array }}
+      </p> -->
+
+    </div>
+
+    <button type="button" class="btn btn-outline-secondary btn-md center-block predict-btn my-3"
+      onclick="exportHTML();">download report</button>
+
+  </div>
+
+
+
+
+  <script type="text/javascript">
+
+    window.history.forward();
+    function noBack() {
+      window.history.forward();
+    }
+
+    function exportHTML() {
+      var header = "<html xmlns:o='urn:schemas-microsoft-com:office:office' " +
+        "xmlns:w='urn:schemas-microsoft-com:office:word' " +
+        "xmlns='http://www.w3.org/TR/REC-html40'>" +
+        "<head><meta charset='utf-8'><title>Export HTML to Word Document with JavaScript</title></head><body>";
+      var footer = "</body></html>";
+      var sourceHTML = header + document.getElementById("pdf").innerHTML + footer;
+
+      var source = 'data:application/vnd.ms-word;charset=utf-8,' + encodeURIComponent(sourceHTML);
+      var fileDownload = document.createElement("a");
+      document.body.appendChild(fileDownload);
+      fileDownload.href = source;
+      fileDownload.download = 'document.doc';
+      fileDownload.click();
+      document.body.removeChild(fileDownload);
+    }
+
+  </script>
+
+</body>
+
+</html>
