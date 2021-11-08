@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Student Classification</title>
+  <title>RAFGRO SEM 4</title>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
@@ -45,7 +45,7 @@
 
   <div class="container">
 
-    <h2 class="my-3">Student Classification for sem 4</h2>
+    <h2 class="my-3">Recommendation for SEM 4: </h2>
 
     <div class="container input-form">
       <form action="{{ url_for('predictsem4')}}" method="post">
@@ -159,6 +159,9 @@
 
         <button type="submit" class="btn btn-outline-secondary btn-md center-block predict-btn my-3"
           onclick="noback()">Predict</button>
+        <button type="button" id="download-button" class="btn btn-outline-secondary btn-md center-block predict-btn"
+          onclick="exportHTML();">download
+          report</button>
 
       </form>
     </div>
@@ -170,9 +173,11 @@
       </h4>
 
       {% for suggestion in list %}
-      <h5>
-        {{ suggestion }}
-      </h5>
+      <p>
+      <ul>
+        <li> {{ suggestion }} </li>
+      </ul>
+      </p>
       {% endfor %}
       <!-- <p>
         {{ np_array }}
@@ -180,8 +185,8 @@
 
     </div>
 
-    <button type="button" class="btn btn-outline-secondary btn-md center-block predict-btn my-3"
-      onclick="exportHTML();">download as document</button>
+    <!-- <button type="button" class="btn btn-outline-secondary btn-md center-block predict-btn my-3"
+      onclick="exportHTML();">download as document</button> -->
 
 
     <!-- <form action="{{ url_for('predictsem4')}}" method="post">
@@ -233,7 +238,7 @@
       var fileDownload = document.createElement("a");
       document.body.appendChild(fileDownload);
       fileDownload.href = source;
-      fileDownload.download = 'document.doc';
+      fileDownload.download = 'suggestion.doc';
       fileDownload.click();
       document.body.removeChild(fileDownload);
     }

@@ -1,0 +1,691 @@
+{
+  "Subject": [
+    {
+      "AM_SE": {
+        "Positive": [
+          "Score is pretty good but if you want to score more focus more on practicing. ",
+          "Marks are good enough practice more to get more (sometimes greed is good). ",
+          "Marks are good enough practice more to get more (sometimes greed is good). ",
+          "Focus more on basics to get a hold of the Subject",
+          "Marks are good enough practice more to get more (sometimes greed is good). ",
+          "Focus more on basics to get a hold of the Subject. "
+        ],
+        "Negative": [
+          "Keep practicing previous year papers to get more experience.",
+          "Revisit difficult topics everyday and solve sums regarding the same.",
+          "Focus more on topics which have higher weightage.",
+          "Focus on Understanding Concepts via attending remedial classes",
+          "For overall improvement avoid making silly mistakes by practicing more",
+          "Solve at least 5 sums everyday to improve"
+        ]
+      },
+      "AM_IA": {
+        "Positive": [
+          "Score is pretty good but if you want to score more focus more on practicing",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Focus more on basics to get a hold of the Subject",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Focus more on basics to get a hold of the Subject"
+        ],
+        "Negative": [
+          "Follow steps as mentioned in the textbook / as taught by the professor",
+          "Solve at least 3 sums from each topic for IA everyday and try to complete the paper in time",
+          "Solve at least 3 sums from each topic for IA everyday and try to complete the paper in time",
+          "Take advice for your professor or peer groups",
+          "Try to complete paper on time and practice formulas everyday",
+          "Have to practice everyday and at least try to write the steps of questions even if you don't get the final answer"
+        ]
+      },
+      "DLDA_SE": {
+        "Positive": [
+          "Try to write answers in points",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Focus on Understanding Concepts via attending remedial classes",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Study the basics and try to apply it to as many questions as you can"
+        ],
+        "Negative": [
+          "Try to draw and practice Logic Gate Diagrams ",
+          "Try to write in points",
+          "Try to practice Truth Tables for more questions",
+          "Focus on Understanding Concepts via attending remedial classes",
+          "Study well for Theory and try to complete the paper in time",
+          "Study the basics and try to apply it to as many questions as you can"
+        ]
+      },
+      "DLDA_IA": {
+        "Positive": [
+          "Good performance. Be prepared with all type of questions. ",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Focus on Understanding Concepts via attending remedial classes",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Well performance. Be prepared with all type of questions. "
+        ],
+        "Negative": [
+          "Try to write answers according to the weightage of the question",
+          "Focus more on the syllabus as it is shorter than SEM exams",
+          "Try to practice Truth Tables for more questions",
+          "Focus on Understanding Concepts via attending remedial classes",
+          "Study well for Theory and try to complete the paper in time",
+          "Study the basics and try to apply it to as many questions as you can"
+        ]
+      },
+      "DSGT_SE": {
+        "Positive": [
+          "Looks like your basics are crystal clear",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Need to focus on this subject as this is base for AOA in the next semester",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Try more and more examples so that time for solving will be reduced. "
+        ],
+        "Negative": [
+          "Looks like your basics are clear but need more practice",
+          "Practice more for numericals",
+          "Make your answer more presentable and accurate",
+          "Need to focus on this subject as this is base for AOA in the next semester",
+          "Make sure to complee paper on time and answer it correctly",
+          "Focus more on graph part it is very much needed in other subjects as well"
+        ]
+      },
+      "DSGT_IA": {
+        "Positive": [
+          "Concepts are very clear make sure to maintain this",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Need to focus on this subject as this is base for AOA in the next semester",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "This is another positive response for cluster 5 (DSGT_IA) and so on"
+        ],
+        "Negative": [
+          "Understand the functions with solved examples and practice more.",
+          "Practice more for numericals",
+          "Make your answer more presentable and accurate",
+          "Need to focus on this subject as this is base for AOA in the next semester",
+          "Make sure to complee paper on time and answer it correctly",
+          "Focus more on graph part it is very much needed in other subjects as well"
+        ]
+      },
+      "ECCF_SE": {
+        "Positive": [
+          "Performance is good. Take your interest in subject ",
+          "Performance is good. Take your interest in subject ",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "The basics are very essential try to learn them first",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)"
+        ],
+        "Negative": [
+          "Basics are clear just focus more on writing answers to the point",
+          "Concepts are huge. Precise your answers.",
+          "Concepts are huge. Precise your answers.",
+          "The basics are very essential try to learn them first",
+          "Concepts are huge. Precise your answers.",
+          "Try to focus more on theory questions if having issue with numericals"
+        ]
+      },
+      "ECCF_IA": {
+        "Positive": [
+          "Prepare your syllabus topics well. Learn them thoroughly",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "The basics are very essential try to learn them first",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Prepare your syllabus topics well. Learn them thoroughly"
+        ],
+        "Negative": [
+          "If you are having trouble in completing paper on time, practice your timing",
+          "Simplify the answer writing. Make notes of your own.",
+          "Simplify the answer writing. Make notes of your own.",
+          "The basics are very essential try to learn them first",
+          "Simplify the answer writing. Make notes of your own.",
+          "Try to attemp more questions while highlighting important points"
+        ]
+      },
+      "DS_SE": {
+        "Positive": [
+          "Good performance. Practice writing the code properly in less time.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Good performance. Practice writing the code properly in less time.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Good performance. Practice writing the code properly in less time."
+        ],
+        "Negative": [
+          "Try representing working of data structure diagramatically",
+          "Try to improve more on linked list and tree data structures",
+          "Try to improve more on linked list and tree data structures",
+          "This is one of most important subject, try learning atleast one subtopic everyday",
+          "Try to improve more on linked list and tree data structures",
+          "This is one of most important subject, try learning atleast one subtopic everyday"
+        ]
+      },
+      "DS_IA": {
+        "Positive": [
+          "Good answer sheet. Try giving examples in a clear way. ",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Good answer sheet. Try giving examples in a clear way. ",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Good answer sheet. Try giving examples in a clear way. "
+        ],
+        "Negative": [
+          "Try representing working of data structure diagramatically",
+          "Try to improve more on linked list and tree data structures",
+          "Try to improve more on linked list and tree data structures",
+          "This is one of most important subject, try learning the basics first",
+          "Try to improve more on linked list and tree data structures",
+          "This is one of most important subject, try learning atleast one subtopic everyday"
+        ]
+      },
+      "DigitalSL_TW": {
+        "Positive": [
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Submit your lab experiments on timely basis.",
+          "Submit your lab experiments on timely basis."  
+        ],
+        "Negative": [
+          "Perform properly during lab. Make good lab documents.",
+          "Include the codes, steps and neccessary things in the lab document.",
+          "Try submitting the documents on the same day of performing experiment.",
+          "Try submitting the documents on the same day of performing experiment. ",
+          "Do not cross the submission deadline. Make submissions on time.",
+          "Do not cross the submission deadline. Make submissions on time." 
+        ]
+      },
+      "DSL_OP": {
+        "Positive": [
+          "Good performance. Explore more experimenting your own designs. ",
+          "Performance is good. You can excel more by trying new design on own. ",
+          "Subject knowlegde is good. Always get complete understanding of subject. ",
+          "Try solvig more numericals, design problems, etc. ",
+          "Good performance. Explore more experimenting your own designs.",
+          "Try solvig more numericals, design problems, etc."
+        ],
+        "Negative": [
+          "Find easy technique to remember truth tables and other logic standards.",
+          "Practice the experiments done in lab. ",
+          "Learn about each gate thoroughly. ",
+          "Learn about each gate thoroughly.",
+          "Practice the experiments done in lab.",
+          "Find easy technique to remember truth tables and other logic standards."
+        ]
+      },
+      "BE_TW": {
+        "Positive": [
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Submit your lab experiments on timely basis.",
+          "Submit your lab experiments on timely basis."  
+        ],
+        "Negative": [
+          "Perform properly during lab. Make good lab documents.",
+          "Include the codes, steps and neccessary things in the lab document.",
+          "Try submitting the documents on the same day of performing experiment.",
+          "Try submitting the documents on the same day of performing experiment. ",
+          "Do not cross the submission deadline. Make submissions on time.",
+          "Do not cross the submission deadline. Make submissions on time." 
+        ]
+      },
+      "BE_OP": {
+        "Positive": [
+        "Good performance. Take your interest and do well. Computer is an electronic device!",
+        "Good performance. Take your interest and do well. Computer is an electronic device!",
+        "Performance is well. Explore more.",
+        "Performance is good. Try experimenting and exploring components. ",
+        "Performance is well. Explore more.",
+        "Performance is good. Try experimenting and exploring components. "  
+        ],
+        "Negative": [
+         "Take your interest in subject. Clear your basics. ",
+         "Understand basic concepts and designing. ",
+         "Give your time to the subject. Patiently study the concepts.",
+         "Understand basic concepts and designing.",
+         "Give your time to the subject. Patiently study the concepts.",
+         "Take your interest in subject. Clear your basics. "
+        ]
+      },
+      "DataSL_TW": {
+        "Positive": [
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Submit your lab experiments on timely basis.",
+          "Submit your lab experiments on timely basis."  
+        ],
+        "Negative": [
+          "Perform properly during lab. Make good lab documents.",
+          "Include the codes, steps and neccessary things in the lab document.",
+          "Try submitting the documents on the same day of performing experiment.",
+          "Try submitting the documents on the same day of performing experiment. ",
+          "Do not cross the submission deadline. Make submissions on time.",
+          "Do not cross the submission deadline. Make submissions on time." 
+        ]
+      },
+      "DSL_OP.1": {
+        "Positive": [
+          "Good performance. Try data structures in other languages as well.",
+          "Performance is good. Try optimizing the codes for complexities. ",
+          "Well performance. Learn more about the data structures with real time examples. ",
+          "Well performance. Learn more about the data structures with real time examples.",
+          "Try optimizing the codes for complexities.",
+          "Try data structures in other languages as well."
+        ],
+        "Negative": [
+          "Data structures are complex, give your time to it and learn thoroughly.",
+          "Implement the algorithms in the programming language you are comfortable with. ",
+          "Learn the algorithms steps very precisely. ",
+          "Implement the algorithms in the programming language you are comfortable with.",
+          "Learn the algorithms steps very precisely.",
+          "Data structures are complex, give your time to it and learn thoroughly"  
+        ]
+      },
+      "OOPM_TW": {
+        "Positive": [
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Submit your lab experiments on timely basis.",
+          "Submit your lab experiments on timely basis."  
+        ],
+        "Negative": [
+          "Perform properly during lab. Make good lab documents.",
+          "Include the codes, steps and neccessary things in the lab document.",
+          "Try submitting the documents on the same day of performing experiment.",
+          "Try submitting the documents on the same day of performing experiment. ",
+          "Do not cross the submission deadline. Make submissions on time.",
+          "Do not cross the submission deadline. Make submissions on time." 
+        ]
+      },
+      "OOPM_OP": {
+        "Positive": [
+          "Good coding. Learn and use new libraries. Do competitive programming.",
+          "Good coding. Try using standard libraries",
+          "Good coding. Learn and use new libraries. Do competitive programming. ",
+          "Coding is great! Learn complexity of program and use new libraries. ",
+          "Fine coding. Practice coding daily to improve.",
+          "Practice daily to improve." 
+        ],
+        "Negative": [
+          "Clear the prerequisite for the subject.",
+          "Focus on clearing basic concepts. ",
+          "Focus on strengthing basic concepts. ",
+          "Do proper hands on the experiments. ",
+          "Set your resouces for good coding practice. ",
+          "Spend at least an hour daily on coding practice. " 
+        ]
+      },
+      "AM4_SE": {
+        "Positive": [
+          "Score is pretty good but if you want to score more focus more on practicing",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Focus more on basics to get a hold of the Subject",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Focus more on basics to get a hold of the Subject"
+        ],
+        "Negative": [
+          "Keep practicing previous year papers to get more experience.",
+          "Revisit difficult topics everyday and solve sums regarding the same.",
+          "Focus more on topics which have higher weightage.",
+          "Focus on Understanding Concepts via attending remedial classes",
+          "For overall improvement avoid making silly mistakes",
+          "Solve at least 5 sums everyday to improve"
+        ]
+      },
+      "AM4_IA": {
+        "Positive": [
+          "Score is pretty good but if you want to score more focus more on practicing",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Focus more on basics to get a hold of the Subject",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Focus more on basics to get a hold of the Subject"
+        ],
+        "Negative": [
+          "Follow steps as mentioned in the textbook/ as taught by the professor",
+          "Solve at least 3 sums from each topic for IA everyday and try to complete the paper in time",
+          "Solve at least 3 sums from each topic for IA everyday and try to complete the paper in time",
+          "Take advice for your professor or peer groups",
+          "Try to complete paper on time and practice formulas everyday",
+          "Have to practice everyday and at least try to write the steps of questions even if you don't get the final answer"
+        ]
+      },
+      "AOA_SE": {
+        "Positive": [
+          "Good knowledge. Explore more on applications, examples of the algorithms.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Explore more on applications, examples of the algorithms.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Explore more on applications, examples of the algorithms."
+        ],
+        "Negative": [
+          "Looks like your basics are clear but need more practice while solving paper",
+          "Complexity calculation requires practice. Try more and more examples. ",
+          "Learn algorithms with at least two examples. ",
+          "Learning the basics comes at the priority",
+          "Learn algorithms with at least two examples.",
+          "Complexity calculation requires practice. Try more and more examples."
+        ]
+      },
+      "AOA_IA": {
+        "Positive": [
+          "Good performance. Practice more examples of the algorithms. ",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Well performance. Practice more examples of the algorithms.",
+          "marks are good enough practice more to get more (sometimes greed is good)",
+          "Practice more examples of the algorithms."
+        ],
+        "Negative": [
+          "Looks like your basics are clear but need more practice",
+          "Complexity calculation requires practice. Try more and more examples. ",
+          "Complexity calculation requires practice. Try more and more examples. ",
+          "First learn the basics of the subject",
+          "Learn algorithms with at least two examples.",
+          "Learn algorithms with at least two examples."
+        ]
+      },
+      "COA_SE": {
+        "Positive": [
+          "Performance is good. Always try to get complete understanding of subject.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Performance is well. Always try to get complete understanding of subject.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Performance is well. Always try to get complete understanding of subject."
+        ],
+        "Negative": [
+          "Clear your understanding of subject with first few chapters. ",
+          "There is lot of theory. Patiently learn the topics.",
+          "Practice the diagrams twice at least. There is lot of theory. Patiently learn the topics.",
+          "There is lot of theory. Patiently learn the topics. Practice the diagrams twice at least.",
+          "Clear your understanding of subject with first few chapter.",
+          "Clear your understanding of subject with first few chapter."
+        ]
+      },
+      "COA_IA": {
+        "Positive": [
+          "Performance is good. Always try to get complete understanding of subject.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Performance is well. Always try to get complete understanding of subject.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Performance is well. Always try to get complete understanding of subject."
+          
+        ],
+        "Negative": [
+          "Clear your understanding of subject with first few chapters. ",
+          "There is lot of theory. Patiently learn the topics.",
+          "Practice the diagrams twice at least. There is lot of theory. Patiently learn the topics.",
+          "There is lot of theory. Patiently learn the topics. Practice the diagrams twice at least.",
+          "Clear your understanding of subject with first few chapter.",
+          "Clear your understanding of subject with first few chapter."
+        ]
+      },
+      "CG_SE": {
+        "Positive": [
+          "Performance is good. Always try to get complete understanding of subject.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Well performance. Practice more examples of the algorithms.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Practice more examples of the algorithms."
+        ],
+        "Negative": [
+          "Clearly understand the basic coordinate system for placement of objects. ",
+          "Learn all the formulas for various transitions. ",
+          "Properly learn the algorithms and solve at least two examples of each. ",
+          "Learn all the formulas for various transitions. ",
+          "Properly learn the algorithms and solve at least two examples of each. ",
+          "Negative response for the subject. Spend some time learning the basic concepts. "
+        ]
+      },
+      "CG_IA": {
+        "Positive": [
+          "Performance is good. Always try to get complete understanding of subject.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Well performance. Practice more examples of the algorithms.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Practice more examples of the algorithms."
+        ],
+        "Negative": [
+          "Clearly understand the basic coordinate system for placement of objects. ",
+          "Learn all the formulas for various transitions and other topics. ",
+          "Properly learn the algorithms and solve at least two examples of each. ",
+          "Learn all the formulas for various topics. ",
+          "Properly learn the algorithms and solve at least two examples of each. ",
+          "Negative response for the subject. Spend some time learning the basic concepts. "
+        ]
+      },
+      "OS_SE": {
+        "Positive": [
+          "Performance is good. Always try to get complete understanding of subject.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Performance is well. Always try to get complete understanding of subject.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Performance is well. Always try to get complete understanding of subject."
+        ],
+        "Negative": [
+          "Operating system is simple to understand. Take your interest into subject. ",
+          "Learn the basic of OS types, functionalaties, etc. ",
+          "Alongwith basic concepts, solve the numerical examples. ",
+          "Operating system is simple to understand. Take your interest into subject. ",
+          "Alongwith basic concepts, solve the numerical examples. ",
+          "Learn the basic of OS types, functionalaties, etc."
+        ]
+      },
+      "OS_IA": {
+        "Positive": [
+          "Performance is good. Always try to get complete understanding of subject.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Performance is well. Always try to get complete understanding of subject.",
+          "Marks are good enough practice more to get more (sometimes greed is good)",
+          "Performance is well. Always try to get complete understanding of subject."
+        ],
+        "Negative": [
+          "Operating system is simple to understand. Take your interest into subject. ",
+          "Learn the basic of OS types, functionalaties, etc. ",
+          "Alongwith basic concepts, solve the numerical examples. ",
+          "Operating system is simple to understand. Take your interest into subject. ",
+          "Alongwith basic concepts, solve the numerical examples. ",
+          "Learn the basic of OS types, functionalaties, etc."
+        ]
+      },
+      "AOA_TW": {
+        "Positive": [
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Submit your lab experiments on timely basis.",
+          "Submit your lab experiments on timely basis."  
+        ],
+        "Negative": [
+          "Perform properly during lab. Make good lab documents.",
+          "Include the codes, steps and neccessary things in the lab document.",
+          "Try submitting the documents on the same day of performing experiment.",
+          "Try submitting the documents on the same day of performing experiment. ",
+          "Do not cross the submission deadline. Make submissions on time.",
+          "Do not cross the submission deadline. Make submissions on time."  
+        ]
+      },
+      "AOA_OP": {
+        "Positive": [
+          "Great performance. Optimize codes to minimum complexities. ",
+          "Performance is good. Always note the complexities of programs.",
+          "Good knowledge. Explore more on applications, examples of the algorithms. ",
+          "Great performance. Optimize codes to minimum complexities. ",
+          "Good knowledge. Explore more on applications, examples of the algorithms. ",
+          "Performance is good. Always note the complexities of programs."
+        ],
+        "Negative": [
+          "Start with simple algorithm steps complexity calculation.",
+          "Start with basic competitive programming.",
+          "Learn the algorithms properly with their examples.",
+          "Try different coding ways/ programming langauges for algorithms.",
+          "Find the programming anguage you are comfortable to code.",
+          "Learn the algorithms properly with their examples."
+        ]
+      },
+      "CG_TW": {
+        "Positive": [
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Submit your lab experiments on timely basis.",
+          "Submit your lab experiments on timely basis." 
+        ],
+        "Negative": [
+         "Perform properly during lab. Make good lab documents.",
+          "Include the codes, steps and neccessary things in the lab document.",
+          "Try submitting the documents on the same day of performing experiment.",
+          "Try submitting the documents on the same day of performing experiment. ",
+          "Do not cross the submission deadline. Make submissions on time.",
+          "Do not cross the submission deadline. Make submissions on time." 
+        ]
+      },
+      "CG_OP": {
+        "Positive": [
+          "Great performance. Cover up the self study part of the subject to improve. ",
+          "Performance is good. Learn more about the coordinates placing of objects on screen.",
+          "Good performance. Understand the applications of the concepts. Very Important!",
+          "Great performance. Cover up the self study part of the subject to improve. ",
+          "Good performance. Understand the applications of the concepts. Very Important!",
+          "Take your interest into the subject and practice more on graphics skills. "
+        ],
+        "Negative": [
+          "Clearly understand the basic coordinate system for placement of objects. ",
+          "Learn all the formulas for various transitions. ",
+          "Properly learn the algorithms and how to code them. ",
+          "Learn all the formulas for various transitions. ",
+          "Properly learn the algorithms and how to code them. ",
+          "Negative response for the subject. Spend some time learning the basic concepts. "
+        ]
+      },
+      "PAL_TW": {
+        "Positive": [
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Submit your lab experiments on timely basis.",
+          "Submit your lab experiments on timely basis."
+        ],
+        "Negative": [
+          "Perform properly during lab. Make good lab documents.",
+          "Include the codes, steps and neccessary things in the lab document.",
+          "Try submitting the documents on the same day of performing experiment.",
+          "Try submitting the documents on the same day of performing experiment. ",
+          "Do not cross the submission deadline. Make submissions on time.",
+          "Do not cross the submission deadline. Make submissions on time."   
+        ]
+      },
+      "PAL_OP": {
+        "Positive": [
+          "Good performance. Know more about the architecture of other processors of same family.",
+          "Well performance. Learn the ASM programming. ",
+          "Well performance. Learn the ASM programming. ",
+          "Good performance. Know more about the architecture of other processors of same family.",
+          "Learn the instruction set thoroughly for knowledge",
+          "Learn the instruction set thoroughly for knowledge"
+        ],
+        "Negative": [
+          "Clear Understanding of processor components and working. ",
+          "Learn the major working/functionalaties of processor. ",
+          "Learn the basic instruction set. ",
+          "Learn basic ASM commands.",
+          "Practice thoroughly the experiments performed in lab. ",
+          "Practice thoroughly the experiments performed in lab."
+        ]
+      },
+      "OS_TW": {
+        "Positive": [
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Submit your lab experiments on timely basis.",
+          "Submit your lab experiments on timely basis."
+        ],
+        "Negative": [
+          "Perform properly during lab. Make good lab documents.",
+          "Include the codes, steps and neccessary things in the lab document.",
+          "Try submitting the documents on the same day of performing experiment.",
+          "Try submitting the documents on the same day of performing experiment. ",
+          "Do not cross the submission deadline. Make submissions on time.",
+          "Do not cross the submission deadline. Make submissions on time." 
+        ]
+      },
+      "OS_OP": {
+        "Positive": [
+          "Good performance. Try exploring more about the subject. ",
+          "Good knowledge of subject but also learn about the realtime application of concepts. ",
+          "Good knowledge of subject but also learn about the realtime application of concepts. ",
+          "Good performance. Try exploring more about the subject.",
+          "Learn all the commands well in Linux OS. ",
+          "Learn in detail about the use of commands and OS functioning. "
+        ],
+        "Negative": [
+          "Clear the OS basic concepts. ",
+          "Learn the applications of the concepts. ",
+          "Know all basic Linux commands. ",
+          "Practice the problems of OS. ",
+          "Practice the problems of OS and learn basic Linux concept. ",
+          "Negative response for Cluster 5 of OS. Clear the OS Concepts and practice on it. "
+        ]
+      },
+      "OPST_TW": {
+        "Positive": [
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Format documents well and maintain the consistency of lab experiment document submissions.",
+          "Well perfomance during labs. Maintain the consistency of lab experiment document submissions.",
+          "Submit your lab experiments on timely basis.",
+          "Submit your lab experiments on timely basis."
+        ],
+        "Negative": [
+          "Perform properly during lab. Make good lab documents.",
+          "Include the codes, steps and neccessary things in the lab document.",
+          "Try submitting the documents on the same day of performing experiment.",
+          "Try submitting the documents on the same day of performing experiment. ",
+          "Do not cross the submission deadline. Make submissions on time.",
+          "Do not cross the submission deadline. Make submissions on time."
+        ]
+      },
+      "OPST_OP": {
+        "Positive": [
+          "Good coding. Learn and use new libraries. Do competitive programming.",
+          "Good coding. Try using standard libraries",
+          "Good coding. Learn and use new libraries. Do competitive programming. ",
+          "Coding is great! Learn complexity of program and use new libraries. ",
+          "Fine coding. Practice coding daily to improve.",
+          "Practice daily to improve."
+        ],
+        "Negative": [
+          "Clear the prerequisite for the subject.",
+          "Focus on clearing basic concepts. ",
+          "Focus on strengthing basic concepts. ",
+          "Do proper hands on the experiments. ",
+          "Set your resouces for good coding practice. ",
+          "Spend at least an hour daily on coding practice. "
+        ]
+      }
+    }
+  ]
+}

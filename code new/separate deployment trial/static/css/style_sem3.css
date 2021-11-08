@@ -36,11 +36,21 @@ input{
 	margin: 0 auto;
 }
 
-.predict-btn{
+.predict-btn {
 	width: 200px;
 	margin-left: 38%;
 	margin-right: 40%;
 }
+
+/* #download-button {
+	width: 200px !important;
+	margin-left: 38% !important;
+	margin-right: 40% !important;
+}
+
+#download-button {
+    visibility: "hidden" !important;
+} */
 
 
 /* .predict-btn {

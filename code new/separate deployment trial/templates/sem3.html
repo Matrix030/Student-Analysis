@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Student Classification</title>
+  <title>RAFGRO SEM 3</title>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
@@ -46,7 +46,7 @@
 
   <div class="container">
 
-    <h2 class="my-3">Student Classification for sem 3</h2>
+    <h2 class="my-3">Recommendation for SEM 3: </h2>
 
     <div class="container input-form">
       <form action="{{ url_for('predictsem3')}}" method="post">
@@ -147,9 +147,11 @@
           </div>
         </div>
 
-
         <button type="submit" class="btn btn-outline-secondary btn-md center-block predict-btn my-3"
-          onclick="noback()">Predict</button>
+          onclick="noback(); greet();">Predict</button>
+        <button type="button" id="download-button" class="btn btn-outline-secondary btn-md center-block predict-btn"
+          onclick="exportHTML();">download
+          report</button>
 
       </form>
       <!-- <form action="{{ url_for('predictsem3')}}" method="post">
@@ -178,37 +180,50 @@
       </form> -->
     </div>
 
-    <div class="pdf" id="pdf">
-      <!-- <h2>report</h2> -->
-      <h4>
-        {{ prediction_text }}
-      </h4>
 
-      {% for suggestion in list %}
-      <h5>
-        {{ suggestion }}
-      </h5>
-      {% endfor %}
-      <!-- <p>
+    <div class="container">
+
+
+      <div class="pdf" id="pdf">
+        <!-- <h2>report</h2> -->
+        <h4>
+          {{ prediction_text }}
+        </h4>
+
+        {% for suggestion in list %}
+        <p>
+        <ul>
+          <li> {{ suggestion }} </li>
+        </ul>
+        </p>
+        {% endfor %}
+        <!-- <p>
         {{ np_array }}
       </p> -->
 
-    </div>
+      </div>
 
-    <button type="button" class="btn btn-outline-secondary btn-md center-block predict-btn my-3"
-      onclick="exportHTML();">download report</button>
+      <!-- <button type="button" id="download-button" class="btn btn-outline-secondary btn-md center-block predict-btn my-3"
+        onclick="exportHTML();">download report</button> -->
+
+    </div>
 
   </div>
 
-
-
-
   <script type="text/javascript">
+
+    // var x = document.getElementById("download-button");
+    // x.style.display = "block";;
 
     window.history.forward();
     function noBack() {
       window.history.forward();
     }
+
+    // function waitDownload() {
+    //   console.log("assdf")
+    //   setTimeout(function () { exportHTML(); }, 5000);
+    // }
 
     function exportHTML() {
       var header = "<html xmlns:o='urn:schemas-microsoft-com:office:office' " +
@@ -222,13 +237,35 @@
       var fileDownload = document.createElement("a");
       document.body.appendChild(fileDownload);
       fileDownload.href = source;
-      fileDownload.download = 'document.doc';
+      fileDownload.download = 'suggestion.doc';
       fileDownload.click();
       document.body.removeChild(fileDownload);
     }
 
-  </script>
+    // function showhide() {
+    //   var x = document.getElementById("download-button");
+    //   if (x.style.display === "none") {
+    //     x.style.display = "block";
+    //   } 
+    //   else {
+    //     x.style.display = "none";
+    //   }
+    // }
 
+    // function btnEdit() {
+    //   { document.getElementById("download-button").style.visibility = "visible"; }
+    // }
+
+    function greet() {
+      console.log("assdf")
+      exportHTML();
+    }
+    // setTimeout(greet, 2000);
+
+    // setTimeout(function () { exportHTML(); }, 2000);
+
+
+  </script>
 </body>
 
 </html>

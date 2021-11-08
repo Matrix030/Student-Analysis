@@ -1,7 +1,9 @@
 import numpy as np
 from flask import Flask, request, jsonify, render_template
 import pickle
-import suggestsem3, suggestsem4
+# import suggest_all
+import Suggestjson
+
 
 app = Flask(__name__)
 model1 = pickle.load(open('sem3model.pkl', 'rb'))
@@ -54,9 +56,9 @@ def predictsem3():
 
     output = round(prediction[0], 2)
     print('this is the output',output)
-    suggestion = suggestsem3.suggest(int_features,output)
+    suggestion = Suggestjson.suggest_cal(int_features, output, 3)
     print(suggestion)
-    return render_template('sem3.html', prediction_text='student from sem 3 belongs to class : {}'.format(output), list=suggestion)
+    return render_template('sem3.html', prediction_text='Suggestions: ', list=suggestion)
 
 
 @app.route('/predictsem4', methods=['POST'])
@@ -67,10 +69,10 @@ def predictsem4():
 
     output = round(prediction[0], 2)
     print('this is the output',output)
-    suggestion = suggestsem4.suggest(int_features,output)
+    suggestion = Suggestjson.suggest_cal(int_features, output, 4)
     print(suggestion)
 
-    return render_template('sem4.html', prediction_text='student from sem 4 belongs to class : {}'.format(output), list=suggestion)
+    return render_template('sem4.html', prediction_text='Suggestions:', list=suggestion)
 
 # @app.route('/predict_apisem3',methods=['POST'])
 # def predict_apisem3():
